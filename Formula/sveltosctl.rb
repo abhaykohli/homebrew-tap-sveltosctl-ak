@@ -1,7 +1,8 @@
 class Sveltosctl < Formula
   desc "Sveltos command-line interface"
   homepage "https://projectsveltos.github.io/sveltos/latest/getting_started/sveltosctl/sveltosctl/"
-  url "https://github.com/projectsveltos/sveltosctl.git",
+  # url "https://github.com/projectsveltos/sveltosctl.git",
+  url "https://github.com/abhaykohli/sveltosctl-homebrew.git"
       tag:      "v1.3.3-homebrew-test",
       revision: "aa87951f5e4f38b3b29903041fe69f71b139e86d"
   license "Apache-2.0"
