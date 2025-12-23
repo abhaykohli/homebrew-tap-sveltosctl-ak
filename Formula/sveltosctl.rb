@@ -31,6 +31,6 @@ class Sveltosctl < Formula
 
   test do
     version_output = shell_output("#{bin}/sveltosctl version 2>&1")
-    assert_match "v1.3.1", version_output
+    assert_match "v#{version}", version_output
   end
 end
